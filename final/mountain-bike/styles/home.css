@@ -1,0 +1,42 @@
+* {
+    max-width: 25em;
+}
+
+.arrows{
+	width: 1em;
+}
+
+
+.carousel{
+	height:10em ;
+	width: 100%;
+}
+
+
+.corouselLabel{
+	display:none;
+	width: 10em;
+}
+
+main{
+	display: flex;
+	margin:2em;
+}
+
+#wrapper {
+  
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#carouselDIV{
+	width: 35em;
+	display: inline-block;
+	height: 10em;
+}
+
+footer{
+	bottom: 0;
+	margin-top: 50%;
+}

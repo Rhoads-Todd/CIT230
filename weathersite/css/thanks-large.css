@@ -1,0 +1,43 @@
+@media only screen and (min-width:64em ) {
+	
+ #navButton { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
+    
+      
+	
+	html{
+		width:64em;
+		max-width:64em;
+margin: 1em;
+	
+	}
+	
+	header, nav, main, footer { 
+  max-width:64em; 
+                          
+}
+	
+#Nav{
+	display:inline;
+	padding: 1em;
+}
+
+ul {
+list-style-type: none;
+margin: 1em;
+padding: 0;
+max-width: 1600px;
+display: inline;
+margin: 1em;
+
+}
+li {
+float:left;
+
+}
+li a {
+display: inline;
+color: black;
+text-align: center;
+padding: 8px 9px;
+}
+}
